@@ -1,0 +1,56 @@
+table inet stalcraft {
+    chain output {
+        type filter hook output priority 0;
+        policy accept;
+        ip daddr 146.185.196.116 drop
+        ip daddr 146.185.196.120 drop
+        ip daddr 146.185.196.72 drop
+        ip daddr 146.185.197.138 drop
+        ip daddr 146.185.197.139 drop
+        ip daddr 146.185.197.17 drop
+        ip daddr 176.114.88.147 drop
+        ip daddr 185.175.47.241 drop
+        ip daddr 188.94.156.211 drop
+        ip daddr 188.94.156.24 drop
+        ip daddr 5.188.130.107 drop
+        ip daddr 5.188.131.40 drop
+        ip daddr 5.188.131.75 drop
+        ip daddr 5.188.37.209 drop
+        ip daddr 5.188.37.210 drop
+        ip daddr 5.188.39.164 drop
+        ip daddr 5.189.201.141 drop
+        ip daddr 5.189.201.213 drop
+        ip daddr 5.35.3.242 drop
+        ip daddr 79.127.249.102 drop
+        ip daddr 79.127.249.87 drop
+        ip daddr 81.163.20.169 drop
+        ip daddr 81.163.20.68 drop
+        ip daddr 82.148.1.195 drop
+        ip daddr 85.119.149.10 drop
+        ip daddr 85.119.149.119 drop
+        ip daddr 85.119.149.123 drop
+        ip daddr 85.119.149.134 drop
+        ip daddr 85.119.149.152 drop
+        ip daddr 85.119.149.184 drop
+        ip daddr 85.119.149.201 drop
+        ip daddr 85.119.149.212 drop
+        ip daddr 85.119.149.214 drop
+        ip daddr 85.119.149.216 drop
+        ip daddr 85.119.149.217 drop
+        ip daddr 85.119.149.25 drop
+        ip daddr 85.119.149.41 drop
+        ip daddr 85.119.149.46 drop
+        ip daddr 85.119.149.60 drop
+        ip daddr 85.119.149.7 drop
+        ip daddr 85.119.149.8 drop
+        ip daddr 85.119.149.9 drop
+        ip daddr 85.119.149.90 drop
+        ip daddr 94.26.255.68 drop
+        ip daddr 94.26.255.69 drop
+        ip daddr 94.26.255.70 drop
+        ip daddr 94.26.255.71 drop
+        ip daddr 94.26.255.72 drop
+        ip daddr 95.213.255.12 drop
+        ip daddr 95.213.255.22 drop
+    }
+}
