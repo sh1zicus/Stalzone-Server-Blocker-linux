@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-SERVERS="$HOME/Stalcraft-Server-Blocker/Servers.json"
+SERVERS="$HOME/Stalcraft-Server-Blocker-linux/Servers.json"
 OUT="stalcraft.nft"
 
 cat > "$OUT" <<'EOF'
