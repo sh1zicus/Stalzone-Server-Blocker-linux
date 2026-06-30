@@ -11,6 +11,8 @@ cd Stalzone-Server-Blocker-linux
 ```
 сгенерирует ip адреса для блокировки
 ```
+chmod +x generate.sh
+
 ./generate.sh
 ```
 запушит адреса в nft
