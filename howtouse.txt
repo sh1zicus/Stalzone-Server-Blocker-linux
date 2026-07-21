@@ -1,3 +1,0 @@
-./generate.sh
-
-sudo nft -f stalcraft.nft
