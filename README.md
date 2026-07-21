@@ -25,7 +25,7 @@ TUI-приложение для управления блокировкой се
 
 ```bash
 git clone https://github.com/sh1zicus/Stalzone-Server-Blocker-linux.git
-cd stalzone-server-blocker
+cd stalzone-server-blocker-linux
 make build
 ```
 
