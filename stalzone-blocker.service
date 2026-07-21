@@ -1,0 +1,12 @@
+[Unit]
+Description=Stalzone Server Blocker Daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=%h/Projects/stalzone-server-blocker/stalzone-blocker --daemon
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
